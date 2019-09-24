@@ -12,7 +12,6 @@ public class Klass {
         return leader;
     }
 
-
     public int getNumber() {
         return number;
     }

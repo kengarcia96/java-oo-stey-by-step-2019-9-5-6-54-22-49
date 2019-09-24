@@ -22,7 +22,7 @@ public class Student extends Person {
     }
 
     public String introduce() {
-        if (klass.getLeader().equals(this.getName()))
+        if (klass.getLeader() != null)
         {
             return (super.introduce() + " I am a Student. I am Leader of " + klass.getDisplayName() + ".");
         }else{

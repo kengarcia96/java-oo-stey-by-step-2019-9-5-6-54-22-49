@@ -32,4 +32,18 @@ public class Person {
         return "My name is " + getName() + "." + " I am " + getAge() + " years old.";
     }
 
+    public boolean equals (Object person){
+
+        Person testPerson = (Person) person;
+
+        if (this.name.equals(testPerson.name) && this.id ==(testPerson.id) && this.age == (testPerson.age)){
+            return true;
+        }
+
+        else{
+            return false;
+        }
+
+    }
+
 }
