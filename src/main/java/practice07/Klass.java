@@ -15,8 +15,4 @@ public class Klass {
         return  "Class " + getNumber();
     }
 
-
-
-
-
 }

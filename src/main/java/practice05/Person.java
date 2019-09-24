@@ -29,8 +29,5 @@ public class Person {
         return "My name is " + name + "." + " I am " + age + " years old.";
     }
 
-    public String backIntroduce() {
-        return "My name is " + name + "." + " I am " + age + " years old.";
-    }
 
 }
